@@ -45,11 +45,9 @@ and prefix all MOI methods with `MOI.` in user code. If a name is also available
 The standard form problem is:
 
 ```math
-\begin{align}
     & \min_{x \in \mathbb{R}^n} & f_0(x)
     \\
     & \;\;\text{s.t.} & f_i(x) & \in \mathcal{S}_i & i = 1 \ldots m
-\end{align}
 ```
 
 where:
